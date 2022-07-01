@@ -1,7 +1,5 @@
 <?php
-    $data = date('y/m/d');
-    $vencimento = '2025-07-01';
-    $restante = strtotime($vencimento) - strtotime($data);
+    
 
 ?>
 <!DOCTYPE html>
@@ -13,6 +11,6 @@
     <title>LearningPHP</title>
 </head>
 <body>
-    <h1><?php echo floor($restante / (60*60*24)) . " Days"  ?></h1>
+    <?php include('./menuBar.html') ?>
 </body>
 </html>
