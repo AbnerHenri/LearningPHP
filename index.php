@@ -1,5 +1,10 @@
 <?php
+
+    $pasta1 = 'Pasta1';
     
+    if(!is_dir($pasta1)){
+        mkdir($pasta1);
+    }
 
 ?>
 <!DOCTYPE html>
@@ -11,6 +16,6 @@
     <title>LearningPHP</title>
 </head>
 <body>
-    <?php include('./menuBar.html') ?>
+    
 </body>
 </html>
